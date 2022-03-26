@@ -19,7 +19,7 @@ public class ClaudioServer {
     public class WebConfiguration implements WebMvcConfigurer {
         @Override
         public void addCorsMappings(CorsRegistry registry) {
-            registry.addMapping("/**").allowedMethods("GET");
+            registry.addMapping("/**").allowedOrigins("https://claudioolivera.herokuapp.com").allowedMethods("GET","PUT","POST","DELETE");
 
         }
     }
