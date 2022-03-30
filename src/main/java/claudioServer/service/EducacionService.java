@@ -1,12 +1,10 @@
 package claudioServer.service;
 
 import claudioServer.model.Educacion;
-
+import claudioServer.model.HardSoft;
 import claudioServer.repository.EducacionRepository;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 
 @Service
@@ -29,7 +27,5 @@ public class EducacionService implements IEducacionService {
     public Educacion buscarEducacion(Long id) {
         return eduRepo.findById(id).orElse(null);
     }
-
-
 
 }

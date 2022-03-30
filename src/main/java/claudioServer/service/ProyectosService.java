@@ -1,7 +1,5 @@
 package claudioServer.service;
 
-
-
 import claudioServer.model.Proyectos;
 import claudioServer.repository.ProyectosRepository;
 import org.springframework.beans.factory.annotation.Autowired;

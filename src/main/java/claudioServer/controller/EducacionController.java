@@ -2,11 +2,9 @@ package claudioServer.controller;
 
 
 import claudioServer.model.Educacion;
-
 import claudioServer.service.IEducacionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController
@@ -29,4 +27,5 @@ public class EducacionController {
     public void borrarEducacion(@PathVariable Long id){
         educacionService.borrarEducacion(id);
     }
+
 }

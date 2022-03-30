@@ -1,12 +1,9 @@
 package claudioServer.service;
 
-
 import claudioServer.model.HardSoft;
-
 import claudioServer.repository.HardSoftRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 
 @Service
